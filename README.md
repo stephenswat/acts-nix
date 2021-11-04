@@ -32,7 +32,7 @@ Once you have installed Nix, you will need to add this channel to your channel
 list, which is done as follows:
 
 ```
-$ nix-channel --add https://github.com/stephenswat/acts_nix/archive/refs/heads/nixexprs.tar.gz acts
+$ nix-channel --add https://github.com/stephenswat/acts-nix/archive/refs/heads/nixexprs.tar.gz acts
 ```
 
 You may then need to update your channel to pull in the derivations:
